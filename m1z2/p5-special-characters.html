@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>special chars</title>
+    <meta charset="utf-8" />
+    <style>
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/ -->
+
+    <!-- &mnemokod; -->
+    <!-- &#KOD10; -->
+    <!-- &#xKOD16; -->
+    <!-- 123
+    3 * 10^0 = 3 * 1 = 3
+    2 * 10^1 = 2 * 10 = 20
+    1 * 10^2 = 1 * 100 = 100 -->
+
+    <!-- 0-9 A-F
+    FFEF53 -->
+    <!-- 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F -->
+    <!-- 
+      A = 10 * 16 ^ 1 = 10 * 16 = 160
+      9 = 9 * 16 ^ 0 = 9 ^ 1 = 9
+     -->
+    <p>&copy;</p>
+    <p>&#169;</p>
+    <p>&#xA9;</p>
+    <p>©</p>
+
+    <p>
+      Znacznik <span class="red">&lt;span&gt;</span> to taka alternatywa dla
+      diva tylko w tekście
+    </p>
+
+    <pre>
+      &lt;span&gt;tutaj tekst&lt;/span&gt;
+    </pre>
+
+    <p>paragraf 1</p>
+    <p>paragraf 2</p>
+    <p>paragaf <span>3</span></p>
+  </body>
+</html>
