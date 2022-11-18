@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <style>
+      .alert {
+        --alert-text-color: green;
+        --alert-accent-color: tomato;
+      }
+
+      .alert-text {
+        color: var(--alert-text-color);
+        border: 5px solid var(--alert-accent-color);
+      }
+
+      .alert-icon {
+        background-color: var(--alert-accent-color);
+      }
+
+      .try {
+        /* --alert-accent-color: blue; */
+        background-color: var(--alert-accent-color);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="alert">
+      <p class="alert-text">Alert text</p>
+      <p class="alert-icon">!!!!!</p>
+    </div>
+    <p class="try">testse</p>
+  </body>
+</html>

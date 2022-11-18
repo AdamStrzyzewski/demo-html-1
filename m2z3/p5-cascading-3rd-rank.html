@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <style>
+      /* 0 0 1 0 */
+      .post-title {
+        color: green;
+      }
+
+      /* 0 0 1 1 */
+      .post > h1 {
+        color: red;
+      }
+
+      /* 0 0 2 0 */
+      .post > .post-title {
+        color: orange;
+      }
+
+      /* 0 0 0 1 */
+      a {
+        color: green;
+      }
+
+      /* 0 0 1 0 */
+      .post-link {
+        color: orange;
+      }
+
+      /* 0 0 1 1 */
+      a.post-link {
+        color: blue;
+      }
+
+      /* 0 0 2 0 */
+      .post > .post-link {
+        color: red;
+      }
+
+      /* 0 0 2 1 winner */
+      .post > a.post-link {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="post">
+      <h1 class="post-title">Lorem ipsum dolor sit amet</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        commodi, veritatis nihil alias iste odit similique sit eius optio
+        veniam, impedit cumque fuga facere labore quo id necessitatibus quaerat
+        rerum.
+      </p>
+      <a href="" class="post-link">Czytaj więcej...</a>
+    </article>
+  </body>
+</html>

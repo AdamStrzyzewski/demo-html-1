@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <style>
+      .red {
+        /* 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F */
+        /* 00 - FF -> 10, AE, FE, B5, 63 */
+        /* 
+        R - 00-FF (red)
+        G - 00-FF (green)
+        B - 00-FF (blue)
+        */
+        color: #ff0000;
+        color: rgb(255, 0, 0);
+        color: rgb(100%, 0, 0);
+      }
+      .green {
+        color: #00ff00;
+        color: rgb(0, 255, 0);
+        color: rgb(0, 100%, 0);
+      }
+      .blue {
+        color: #0000ff;
+        color: rgb(0, 0, 255);
+        color: rgb(0, 0, 100%);
+      }
+      .magenta {
+        color: #ff00ff;
+        color: rgb(255, 0, 255);
+        color: rgb(100%, 0, 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <p class="red">RED</p>
+    <p class="green">GREEN</p>
+    <p class="blue">BLUE</p>
+    <p class="magenta">MAGENTA</p>
+  </body>
+</html>
