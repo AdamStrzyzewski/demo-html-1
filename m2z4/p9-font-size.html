@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <style>
+      html {
+        font-size: 15px;
+      }
+      .example-1 {
+        font-size: 20px;
+      }
+      .parent {
+        font-size: 10px;
+      }
+      .example-2 {
+        /* multiplier to parent element */
+        /* 1.5 * 10px = 15px */
+        font-size: 1.5em;
+      }
+      .example-3 {
+        /* multiplier to html font size */
+        /* 2 * 15px = 30px */
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="example-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo
+      magnam nesciunt reprehenderit adipisci ex reiciendis quis. Nobis quidem
+      odio facilis rem omnis mollitia sapiente. Ex, odit minus est, itaque nemo
+      repellat, quo alias corporis rem voluptatibus sit non voluptatum expedita
+      porro fuga quae in. Dolores possimus eum iure neque.
+    </p>
+    <div class="parent">
+      <p class="example-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo
+        magnam nesciunt reprehenderit adipisci ex reiciendis quis. Nobis quidem
+        odio facilis rem omnis mollitia sapiente. Ex, odit minus est, itaque
+        nemo repellat, quo alias corporis rem voluptatibus sit non voluptatum
+        expedita porro fuga quae in. Dolores possimus eum iure neque.
+      </p>
+    </div>
+    <p class="example-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo
+      magnam nesciunt reprehenderit adipisci ex reiciendis quis. Nobis quidem<br />
+      odio facilis rem omnis mollitia sapiente. Ex, odit minus est, itaque nemo
+      repellat, quo alias corporis rem voluptatibus sit non voluptatum expedita
+      porro fuga quae in. Dolores possimus eum iure neque.
+    </p>
+  </body>
+</html>
