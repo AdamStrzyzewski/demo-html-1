@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      img {
+        display: block;
+      }
+
+      .card {
+        display: flex;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        border: 1px solid black;
+      }
+
+      .card > .content {
+        margin-left: 15px;
+      }
+      .card img {
+        width: 20%;
+        /* height: 200px; */
+      }
+
+      .flex-modified {
+        /* align-self: flex-start; */
+        align-self: flex-end;
+        /* align-self: center; */
+      }
+      .flex-modified-2 {
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="https://images.pexels.com/photos/952724/pexels-photo-952724.jpeg?auto=compress&cs=tinysrgb&w=240&dpr=2"
+        alt=""
+        width="240"
+      />
+      <div class="content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis cum
+        ratione, saepe maiores obcaecati illo eos ipsam molestias voluptatem
+        minus libero laboriosam. Ut officia similique illum deserunt. Ullam at
+        esse doloremque, maxime nam nisi? A dolorem impedit nesciunt excepturi
+        corrupti aspernatur perferendis ullam provident eaque optio voluptatem
+        ea, iure neque! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Facilis cum ratione, saepe maiores obcaecati illo eos ipsam
+        molestias voluptatem minus libero laboriosam. Ut officia similique illum
+        deserunt. Ullam at esse doloremque, maxime nam nisi? A dolorem impedit
+        nesciunt excepturi corrupti aspernatur perferendis ullam provident eaque
+        optio voluptatem ea, iure neque!
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="https://images.pexels.com/photos/952724/pexels-photo-952724.jpeg?auto=compress&cs=tinysrgb&w=240&dpr=2"
+        alt=""
+        width="240"
+        class="flex-modified"
+      />
+      <img
+        src="https://images.pexels.com/photos/952724/pexels-photo-952724.jpeg?auto=compress&cs=tinysrgb&w=240&dpr=2"
+        alt=""
+        width="240"
+        class="flex-modified-2"
+      />
+      <div class="content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
+        placeat repellat nulla in, ab necessitatibus earum voluptatem illo
+        officiis error laudantium illum magni, recusandae tenetur. Commodi ex
+        earum, totam tempora dolor sit, odio, voluptatem saepe nemo blanditiis
+        quaerat fugit esse inventore quia eveniet voluptate aut perspiciatis
+        rerum iure laudantium eum. Ea tenetur doloribus quod saepe repudiandae
+        inventore facere quisquam ab odio, nisi sit nemo illum incidunt quo
+        repellendus cupiditate earum atque at corporis. Ipsum est veniam
+        architecto magni et cumque, eius, qui minus velit voluptates dicta
+        aliquid fugit! Ullam officia ipsa veniam facilis obcaecati vel qui
+        dignissimos, suscipit alias optio.
+      </div>
+    </div>
+  </body>
+</html>

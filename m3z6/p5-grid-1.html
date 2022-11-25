@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        /* border: 1px solid black; */
+      }
+      .card-set {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+        height: 100%;
+        align-content: flex-start;
+        align-content: center;
+        align-content: flex-end;
+        align-content: space-between;
+        align-content: space-around;
+      }
+
+      .item {
+        border: 1px solid green;
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        /* without gap */
+        /* flex-basis: 33%; */
+        /* calc((100% - number_of_gaps_in_row * value_of_one_gap) / number_of_elements_in_row) */
+        flex-basis: calc((100% - 2 * 10px) / 3);
+      }
+
+      .item p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="card-set">
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+        <li class="item">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            ipsum dolorum cupiditate natus facilis minima magni deleniti beatae
+            sunt odit.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

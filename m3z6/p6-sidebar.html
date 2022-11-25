@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        max-width: 960px;
+        padding: 0 10px;
+        margin: 0 auto;
+        border: 1px solid black;
+      }
+
+      .sidebar {
+        width: 100px;
+        flex-basis: 250px;
+        background-color: red;
+      }
+
+      .sidebar-2 {
+        /* 1 / (1+3) => 1/4 */
+        flex-grow: 1;
+        background-color: blue;
+      }
+
+      .content {
+        /* 3 / (1+3) => 3/4 */
+        background-color: green;
+        flex-grow: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">Sidebar</aside>
+      <main class="content">Main Content</main>
+      <aside class="sidebar-2">Sidebar</aside>
+    </div>
+  </body>
+</html>
